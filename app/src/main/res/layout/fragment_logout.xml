@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".logoutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnKullanicilariYonet"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#4CAF50"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Kullanıcıları Yönet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/btnsatislarim"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#2196F3"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Satışlarım"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnKullanicilariYonet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnonerisikeyet"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#8BC34A"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Öneri / Şikayet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnKullanicilariYonet"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btncisiks"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#FF0000"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Çıkış"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnKullanicilariYonet"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnKullaniciInfo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#5000E4"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Kullanıcı Bilgilerimi Görüntüle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnKullanicilariYonet"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/lyKullaniciInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_bottom_row" />
+
+            <TextView
+                android:id="@+id/tvKullanicisEmailFT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/alata"
+                android:text="Selam Kullanıcı"
+                android:textAlignment="center"
+                android:textColor="#424242"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvKullanicisSifreFT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/alata"
+                android:text="Selam Kullanıcı"
+                android:textAlignment="center"
+                android:textColor="#424242"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

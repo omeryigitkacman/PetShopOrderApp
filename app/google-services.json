@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "185906571652",
+    "project_id": "phetshopp-877c0",
+    "storage_bucket": "phetshopp-877c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185906571652:android:141b0fea49f1e8ded3d5d1",
+        "android_client_info": {
+          "package_name": "com.example.shopp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185906571652-9j220cl44nb25prjqh5ndumr0mn9kesq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaY2-aC8Lzq-iw-skEa955qnGZdA1hEZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185906571652-9j220cl44nb25prjqh5ndumr0mn9kesq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185906571652:android:69541c98a31d15bad3d5d1",
+        "android_client_info": {
+          "package_name": "com.example.shopp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185906571652-9j220cl44nb25prjqh5ndumr0mn9kesq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaY2-aC8Lzq-iw-skEa955qnGZdA1hEZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185906571652-9j220cl44nb25prjqh5ndumr0mn9kesq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

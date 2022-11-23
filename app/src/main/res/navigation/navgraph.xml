@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.shopp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.shopp.logoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" >
+        <action
+            android:id="@+id/action_logoutFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.shopp.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.shopp.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.shopp.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/urunAddFragment"
+        android:name="com.example.shopp.UrunAddFragment"
+        android:label="fragment_urun_add"
+        tools:layout="@layout/fragment_urun_add" />
+    <fragment
+        android:id="@+id/urunlerimFragment"
+        android:name="com.example.shopp.UrunlerimFragment"
+        android:label="fragment_urunlerim"
+        tools:layout="@layout/fragment_urunlerim" />
+    <fragment
+        android:id="@+id/urunEditFragment"
+        android:name="com.example.shopp.UrunEditFragment"
+        android:label="fragment_urun_edit"
+        tools:layout="@layout/fragment_urun_edit" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.shopp.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/userManagment"
+        android:name="com.example.shopp.userManagment"
+        android:label="fragment_user_managment"
+        tools:layout="@layout/fragment_user_managment" />
+    <fragment
+        android:id="@+id/urunDetayFragment"
+        android:name="com.example.shopp.UrunDetayFragment"
+        android:label="fragment_urun_detay"
+        tools:layout="@layout/fragment_urun_detay" />
+    <fragment
+        android:id="@+id/chardFragment"
+        android:name="com.example.shopp.ChardFragment"
+        android:label="fragment_chard"
+        tools:layout="@layout/fragment_chard" />
+    <fragment
+        android:id="@+id/satislarimFragment"
+        android:name="com.example.shopp.SatislarimFragment"
+        android:label="fragment_satislarim"
+        tools:layout="@layout/fragment_satislarim" />
+    <fragment
+        android:id="@+id/sparislerimFragment"
+        android:name="com.example.shopp.SparislerimFragment"
+        android:label="fragment_sparislerim"
+        tools:layout="@layout/fragment_sparislerim" />
+    <fragment
+        android:id="@+id/sparisDetayFragment"
+        android:name="com.example.shopp.SparisDetayFragment"
+        android:label="fragment_sparis_detay"
+        tools:layout="@layout/fragment_sparis_detay" />
+    <fragment
+        android:id="@+id/oneriFragment"
+        android:name="com.example.shopp.OneriFragment"
+        android:label="fragment_oneri"
+        tools:layout="@layout/fragment_oneri" />
+</navigation>
